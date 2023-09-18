@@ -29,11 +29,11 @@ def login_user(username,password):
         tx="invald username"
     else:
         if password==x[0]:
-            print('Sucsses')
+            #print('Sucsses')
             acess=True
             tx='Login Sucsses'
         else:
-            print("invald password")
+            #print("invald password")
             acess=False
             tx="invald password"
         
