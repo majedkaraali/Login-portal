@@ -7,6 +7,9 @@ c.execute("""CREATE TABLE IF NOT EXISTS User(
  	password text
  	)""")
 
+
+
+
 def add_user(username,password):
     global state
     c.execute("SELECT username FROM User WHERE username=:username",{'username':username})
